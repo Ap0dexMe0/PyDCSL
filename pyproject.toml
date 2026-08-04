@@ -4,12 +4,12 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry]
 name = "PyDCSL"
-version = "0.4.0"
+version = "0.5.0"
 description = "A compact Python tool to check if a Widevine device certificate (DCSL) is revoked or valid."
 authors = ["ThatNotEasy <apid9755@gmail.me>"]
 license = "MIT"
 readme = "README.md"
-homepage = "https://github.com/ThatNotEasy/PyDCSL"
+homepage = "https://github.com/Ap0dexMe0/PyDCSL"
 packages = [{ include = "PyDCSL" }]
 classifiers = [
     "Programming Language :: Python :: 3",
@@ -25,6 +25,10 @@ classifiers = [
 [tool.poetry.dependencies]
 python = ">=3.7"
 requests = "*"
+curl_cffi = "*"
+pycryptodome = "*"
+pywidevine = "*"
+protobuf = "*"
 coloredlogs = "*"
 colorama = "*"
 

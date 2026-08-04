@@ -31,8 +31,8 @@ def parse_args():
         '-o', '--output',
         dest='output',
         metavar='OUTPUT',
-        default='output.json',
-        help='Path to write the resulting JSON'
+        default=None,
+        help='Path to write the resulting JSON (defaults to MODEL_NAME.json)'
     )
 
     args = parser.parse_args()

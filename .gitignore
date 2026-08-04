@@ -11,3 +11,6 @@ __pycache__/
 *.pyc
 *.pyo
 *.pyd
+
+# Contains a hardcoded PyPI token
+RunMe.sh
